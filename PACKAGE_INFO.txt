@@ -1,0 +1,5 @@
+Project 1 — 3D AI Visualization
+Package: GitHub-ready source project
+Target: Godot 4.7.2 stable
+Deployment: Windows ZIP via GitHub Releases; optional Web via GitHub Pages
+Mode: Mock mode works without an AI backend

@@ -1,0 +1,6 @@
+# Keep Godot text assets diffable
+*.gd text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.cfg text eol=lf
+*.json text eol=lf

@@ -1,0 +1,31 @@
+# Godot generated files
+.godot/
+godot/.godot/
+*.tmp
+*.import
+
+# Godot exports / binaries
+builds/windows/
+builds/web/
+*.exe
+*.pck
+*.zip
+*.wasm
+
+# Web export generated files can be tracked only when intentionally deployed.
+# docs/ is intentionally NOT ignored so GitHub Pages exports can be committed.
+
+# Blender
+blender/*.blend1
+blender/*.blend2
+*.blend1
+*.blend2
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
