@@ -8,9 +8,9 @@ godot/.godot/
 builds/windows/
 builds/web/
 *.exe
-*.pck
 *.zip
-*.wasm
+
+# Web deployment files in docs/ are intentionally tracked
 
 # Web export generated files can be tracked only when intentionally deployed.
 # docs/ is intentionally NOT ignored so GitHub Pages exports can be committed.
