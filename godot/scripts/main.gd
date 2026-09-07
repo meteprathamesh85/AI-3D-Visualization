@@ -24,10 +24,13 @@ var pause_button: Button
 var camera_angle := 0.0
 var paused := false
 
+const PUBLIC_EVENT_ENDPOINT := "https://ai-3d-visualization.onrender.com/events.json"
+
 func _ready() -> void:
 	_build_world()
 	_build_ui()
-	_start_mock_mode()
+	endpoint_edit.text = PUBLIC_EVENT_ENDPOINT
+	_connect_http()
 
 func _process(delta: float) -> void:
 	if paused:
